@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Crussssh</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/spinload.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href=" https://fonts.googleapis.com/css?family=Pacifico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+        .content {
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    transform: translate(-50%, -50%);
+    
+        }
+        
+h2#text3 {
+    margin-bottom: 100px;
+    font-size: 2.6rem;;
+}
+button#yes, button#no {
+    padding: 12px 100px;
+    border-radius: 28px;
+}
+button#yes {
+    margin-left: 82px;
+    margin-right: 128px;
+}
+
+    </style>
+  </head>
+  <body>
+    
+      <div id="bg"></div>
+      <div class="content">
+        <header>
+          <h2 id="text3">Do You Want to hear my words of love?</h2>
+          
+        </header>
+        <button id="yes" type="button" class="btn btn-danger btn-lg">
+          Yes
+        </button>
+        <button id="no" type="button" class="btn btn-info btn-lg">
+          No
+        </button>
+      </div>
+    </div>
+   
+    <script>
+        var mail = document.querySelector("#yes")
+        mail.addEventListener("click", ()=>{
+            window.location.href = "index.html"
+        });
+        var mail = document.querySelector("#no")
+        mail.addEventListener("click", ()=>{
+            window.location.href = "tel:0816513366"
+        });
+        var audio = new Audio('./image/m52.mp3');
+        audio.autoplay = true;
+    </script>
+</body>
+</html>
