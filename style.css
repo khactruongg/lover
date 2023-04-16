@@ -838,3 +838,6 @@ body{
 #slideshow img.active {
     opacity: 1;
 }
+.textLove {
+    display: none;
+}
