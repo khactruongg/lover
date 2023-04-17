@@ -22,8 +22,8 @@ body{
 }
 .box{
     position: relative;
-    width: 600px;
-    height: 350px;
+    width: 760px;
+    height: 600px;
     background: rgba(253,233,234,0.9);
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
@@ -74,6 +74,7 @@ body{
 .content{
     position: relative;
     width: 100%;
+    margin-top: 28px;
     height: 100%;
 }
 .content .title{
