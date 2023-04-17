@@ -22,8 +22,8 @@ body{
 }
 .box{
     position: relative;
-    width: 760px;
-    height: 600px;
+    width: 735px;
+    height: 540px;
     background: rgba(253,233,234,0.9);
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
@@ -33,7 +33,7 @@ body{
 }
 .mail{
     width: 600px;
-    height: 500px;
+    height: 460px;
     border: 2px dashed rgb(167,32,71);
     border-radius: 15px;
 }
