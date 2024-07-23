@@ -844,3 +844,7 @@ body{
 .textLove {
     display: none;
 }
+@media only screen and (max-width: 767px) {
+    .gift1,.gift2,giff3,.gift4{
+        display:none;
+}
