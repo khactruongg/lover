@@ -845,6 +845,6 @@ body{
     display: none;
 }
 @media only screen and (max-width: 767px) {
-    .gift1,.gift2,giff3,.gift4{
+    .gift,.gift1,.gift2,gift3,.gift4{
         display:none;
 }
